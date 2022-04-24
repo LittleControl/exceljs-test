@@ -1,12 +1,23 @@
 {
   "name": "exceljs-test",
   "version": "1.0.0",
-  "main": "index.js",
   "repository": "https://github.com/LittleControl/exceljs-test.git",
   "author": "littlecontrol <i@littlecontrol.me>",
-  "license": "GPL",
-  "packageManager": "yarn@3.2.0",
+  "license": "GPL-3.0-or-later",
+  "main": "out.js",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "babel src -d lib && node lib/index.js",
+    "build": "babel src -d lib"
+  },
   "dependencies": {
-    "exceljs": "^4.3.0"
+    "core-js": "^3.22.2",
+    "exceljs": "^4.3.0",
+    "regenerator-runtime": "^0.13.9"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11"
   }
 }

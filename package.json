@@ -1,0 +1,12 @@
+{
+  "name": "exceljs-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/LittleControl/exceljs-test.git",
+  "author": "littlecontrol <i@littlecontrol.me>",
+  "license": "GPL",
+  "packageManager": "yarn@3.2.0",
+  "dependencies": {
+    "exceljs": "^4.3.0"
+  }
+}

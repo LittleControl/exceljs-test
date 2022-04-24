@@ -1,5 +1,7 @@
-# yarn something
-.yarn/cache
+# yarn or npm something
+.yarn/
+*.lock
+lib/
 
 # Logs
 logs
